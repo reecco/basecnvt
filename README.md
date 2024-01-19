@@ -41,7 +41,12 @@ binary.toChar("01110100 01100101 01110011 01110100"); // return 'test'
 
 ## Running Tests
 
-To run the test suite, first install the dependencies:
+To run the test suite, first clone the repository:
+````sh
+git clone https://github.com/reecco/basecnvt.git
+````
+
+Install the dependencies:
 ````sh
 npm install
 
