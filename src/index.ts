@@ -4,6 +4,14 @@ import decimal from "./utils/decimal";
 import hexadecimal from "./utils/hexadecimal";
 import octal from "./utils/octal";
 
+const base = {
+  binary,
+  char,
+  decimal,
+  hexadecimal,
+  octal
+};
+
 export {
   binary,
   char,
@@ -11,3 +19,5 @@ export {
   hexadecimal,
   octal
 }
+
+export default base;

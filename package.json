@@ -1,7 +1,7 @@
 {
   "name": "basecnvt",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Basecnvt base conversions",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {

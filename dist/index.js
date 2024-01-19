@@ -14,3 +14,11 @@ const hexadecimal_1 = __importDefault(require("./utils/hexadecimal"));
 exports.hexadecimal = hexadecimal_1.default;
 const octal_1 = __importDefault(require("./utils/octal"));
 exports.octal = octal_1.default;
+const base = {
+    binary: binary_1.default,
+    char: char_1.default,
+    decimal: decimal_1.default,
+    hexadecimal: hexadecimal_1.default,
+    octal: octal_1.default
+};
+exports.default = base;
